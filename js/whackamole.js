@@ -94,7 +94,7 @@ function countDown(seconds) {
 $(document).ready(function(){
 	
 	$('.start').on('mouseup',function(){
-		audio = new Audio("/public/sounds/ready.mp3");
+		audio = new Audio("/sounds/ready.mp3");
 		whackamole.startGame();
 		animateDiv();
 		// audio.play();

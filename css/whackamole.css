@@ -1,5 +1,5 @@
 html {
-	background-image: url("/public/img/dramaticmole.jpg");
+	background-image: url("/img/dramaticmole.jpg");
 	background-size: 100% ;
 }
 .board {
@@ -9,7 +9,7 @@ html {
 }
 
 .board:hover{
-	cursor:url("/public/img/thor.png"), auto}
+	cursor:url("/img/thor.png"), auto}
 
 .tile{
 	height: 150px;
@@ -31,7 +31,7 @@ html {
 }
 
 .wacked {
-	background-image: url("/public/img/moley.gif");
+	background-image: url("/img/moley.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 	opacity: 1;
